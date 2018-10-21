@@ -1,0 +1,96 @@
+.lt_banner .mui-slider-item {
+  overflow: hidden;
+}
+.lt_banner .mui-slider-item img {
+  height: 100%;
+}
+.lt_nav {
+  width: 100%;
+  padding: 20px 20px;
+  overflow: hidden;
+}
+.lt_nav a {
+  display: block;
+  width: 33.33%;
+  float: left;
+}
+.lt_nav a img {
+  width: 100%;
+}
+.lt_brand {
+  width: 100%;
+  padding: 20px;
+}
+.lt_brand img {
+  display: block;
+  width: 100%;
+}
+.lt_brand ul {
+  width: 100%;
+}
+.lt_brand ul li {
+  float: left;
+  width: 25%;
+}
+.lt_brand ul li a {
+  display: block;
+  widows: 100%;
+}
+.lt_sport {
+  width: 100%;
+  padding: 10px;
+}
+.lt_sport img {
+  width: 100%;
+  display: block;
+}
+.lt_sport ul {
+  width: 100%;
+  padding-top: 10px;
+  overflow: hidden;
+}
+.lt_sport ul li {
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+.lt_sport ul li a {
+  display: block;
+  padding: 5px;
+  box-shadow: 0 0 5px#ccc;
+}
+.lt_sport ul li a img {
+  width: 100%;
+}
+.lt_sport ul li a .lt_sIntro {
+  text-align: center;
+  display: block;
+  height: 60px;
+  line-height: 28px;
+  padding: 4px;
+  font-size: 23px;
+  overflow: hidden;
+  color: #a09999;
+  margin-bottom: 10px;
+}
+.lt_sport ul li a p {
+  text-align: center;
+  font-size: 23px;
+}
+.lt_sport ul li a p span:first-of-type {
+  color: red;
+}
+.lt_sport ul li a p span:last-of-type {
+  text-decoration: line-through;
+}
+.lt_sport ul li a .lt_sBuy {
+  display: block;
+  width: 112px;
+  height: 52px;
+  background-color: #e92322;
+  color: #fff;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px auto;
+}

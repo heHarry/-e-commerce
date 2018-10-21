@@ -1,0 +1,21 @@
+.category_content {
+  position: absolute;
+  left: 0;
+  top: 44px;
+  bottom: 50px;
+  width: 100%;
+  background: #f5f5f5;
+}
+.category_content .category_left {
+  width: 100px;
+  height: 100%;
+  position: relative;
+  background-color: yellow;
+  float: left;
+}
+.category_content .category_right {
+  height: 100%;
+  position: relative;
+  margin-left: 100px;
+  background-color: red;
+}
