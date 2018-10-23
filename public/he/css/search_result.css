@@ -1,0 +1,19 @@
+.mui-content {
+  position: absolute;
+  left: 0;
+  top: 44px;
+  bottom: 55px;
+  width: 100%;
+}
+.mui-content .container {
+  background-color: #eee;
+  margin: -33px 10px 0;
+  height: 40px;
+}
+.mui-content .container div {
+  text-align: center;
+  line-height: 40px;
+}
+.search_resultList {
+  margin-bottom: 50px;
+}
