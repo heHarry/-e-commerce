@@ -1,0 +1,61 @@
+.mui-content {
+  position: absolute;
+  padding-top: 20px;
+  left: 0;
+  top: 44px;
+  bottom: 50px;
+  width: 100%;
+}
+.mui-content .search_product {
+  position: relative;
+  margin: 0 20px;
+  border: 1px solid purple;
+  border-radius: 3px;
+  height: 39px;
+}
+.mui-content .search_product .search_pLeft {
+  height: 37px;
+  width: 100%;
+  border: none;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+.mui-content .search_product .search_pRight {
+  width: 70px;
+  height: 37px;
+  background-color: purple;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #ffffff;
+}
+.mui-content .search_history {
+  font-size: 14px;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.mui-content .search_history .search_hList {
+  color: #8f8f94;
+}
+.mui-content .search_history .clear_history {
+  margin-right: 20px;
+}
+.mui-content .history_list {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.mui-content .history_list li {
+  border-bottom: 1px solid #ccc;
+  height: 40px;
+  line-height: 40px;
+}
+.mui-content .history_list li a {
+  color: red;
+}
