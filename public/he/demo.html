@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<script src="./assets/zepto/zepto.min.js"></script>
+	<script src="./assets/mui/css/mui.min.css"></script>
+	<script src="./assets/mui/js/mui.min.js"></script>
+	<link rel="stylesheet" href="./assets/mui/css/mui.picker.css">
+	<link rel="stylesheet" href="./assets/mui/css/mui.poppicker.css">
+	<script src="./assets/mui/js/mui.picker.js"></script>
+	<script src="./assets/mui/js/mui.poppicker.js"></script>
+</head>
+<body>
+<button id="showCityPicker3" class="mui-btn mui-btn-block" type="button">hhhhhhhhhhh</button>
+
+	<script>
+		var picker = new mui.PopPicker({
+    layer: 2
+});
+    picker.setData([{
+        value: '110000',
+        text: '北京市',
+        children: [{
+                value: "110101",
+                text: "东城区"
+        }]
+    }, {
+        value: '120000',
+        text: '天津市',
+        children: [{
+	        value: "120101",
+            text: "和平区"
+        }, {
+            value: "120102",
+            text: "河东区"
+        }, {
+            value: "120104",
+            text: "南开区"
+        }
+        ]
+    }])
+    var html = "";
+    var result = "";
+    $("#showCityPicker3").on("tap",function(){
+    	picker.show(function(SelectedItem) {
+		
+		// html+=SelectedItem[0].text;
+		result = SelectedItem
+		// if (var i = 0;i<result.length;i++) {
+		// 	console.log(result.length);
+		// }
+		html+=result[0].text+result[1].text;
+		console.log(html);
+		
+		})
+    })
+	</script>
+</body>
+</html>
