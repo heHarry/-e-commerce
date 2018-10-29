@@ -1,0 +1,23 @@
+#user_allInfo {
+  width: 100%;
+  position: relative;
+}
+#user_allInfo img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+#user_allInfo .user_info {
+  position: absolute;
+  top: 8px;
+  left: 70px;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+.mui-table-view li:last-of-type {
+  text-align: center;
+}
+.mui-table-view li:last-of-type .logout {
+  border: none;
+}

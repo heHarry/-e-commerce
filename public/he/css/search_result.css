@@ -17,3 +17,10 @@
 .search_resultList {
   margin-bottom: 50px;
 }
+#refresh {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  bottom: 55px;
+  width: 100%;
+}
